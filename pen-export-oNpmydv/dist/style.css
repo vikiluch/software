@@ -1,0 +1,101 @@
+body{
+  background-color: pink;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.panel{
+  background-color: white;
+  border-radius: 3%;
+  padding: 15px 20px;
+  width: 100%;
+  max-width: 1400px;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.pricing-plan{
+  border-bottom: 2px solid lightgray;
+}
+.pricing-plan:last-child{
+  border-bottom: none;
+}
+.pricing-img{
+  
+  margin-top: 25px;
+  padding: 20px;
+  margin-bottom: 25px;
+  width: 200px;
+  height:200px;
+  max-width:100%;
+}
+.pricing-header{
+  color: gray;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.pricing-features{
+  margin: 50px 0 25px;
+  color: brown;
+}
+.pricing-features-item{
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 20px;
+  border-bottom: 1px solid lightgray;
+    padding: 15px 0;
+}
+
+.pricing-price{
+  color: brown;
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+}
+.pricing-button{
+  border: 1px solid brown;
+  border-radius: 10px;
+  color: brown;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 25px 0;
+  transition: background-color 200ms ease-in-out;
+}
+.pricing-button:hover, .pricing-button:focus{
+  background-color: pink;
+}
+.pricing-button.is-featured{
+  background-color: red;
+  color: white;
+}
+.pricing-button.is-featured:hover, .pricing-button.is-featured:focus{
+   background-color: white;
+  color: brown;
+}
+@media (min-width: 900px){
+  .panel{
+    flex-direction:row;
+  }
+  .pricing-plan{
+    border-bottom:none;
+    border-right: 1px solid lightgrey;
+    padding: 25px 40px;
+  }
+  .pricing-plan:last-child{
+    border-right: none;
+  }
+}

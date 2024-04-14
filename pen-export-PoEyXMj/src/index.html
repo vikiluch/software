@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <nav>Bioyoga</nav>
+    <h1>Forms</h1>
+    <div>
+    <form action="/search">
+        <p>
+    <label for="username">User name:</label>
+    <input id="username" type="text" placeholder="username" name="username">
+</p>
+<p>
+    <label for="password">Password:</label>
+    <input id="password" type="password" placeholder="password" name="password">
+</p>
+<p>
+    <label for="email">Email:</label>
+    <input  id="email" type="email" placeholder="email" name="email">
+</p>
+<p>
+    <input  type="date" placeholder="best practice day" name="date">
+</p>
+<p>
+    <input  type="color" placeholder="t-shirt color" name="color">
+</p>
+<p>
+    <input  type="time" placeholder="time to start" name="time">
+</p>
+<button type="submit">Submit</button>
+
+</form>
+<p>
+      <h3>Search Google </h3>
+<form action="https://www.google.ru/search">
+    <input type="text" name="q">
+    <button>Search Google</button>
+</form>
+</p>
+    <p>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="q">
+    <button>Search YouTube</button>
+      </form>
+  </p>
+      <br>
+  <p>
+    <h2>Write your wishes</h2>
+      <form action="/search" id="yogaForm">
+        <input type="text" id="yogaName" />
+      <button>Submit</button>
+        </form>
+    <ul id="yoga"></ul>
+</p>
+</body>
+<a href="yoga.html">Go HOME</a>
+</div>
+</html>
+

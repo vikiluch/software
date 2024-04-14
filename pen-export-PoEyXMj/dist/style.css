@@ -1,0 +1,29 @@
+nav{
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(233, 134, 134);
+    width: 25%;
+    color:green;
+}
+div{
+    background-color: rgba(255, 126, 98, 0.5);
+    width: 400px;
+height: 400px;
+border-radius: 3%;
+margin: 30px;
+padding: 40px;
+opacity: 0.7;
+}
+body{
+    background-color: #e1d47d80;
+    width: 50%;
+    height:50%;
+    font-family: Roboto, sans-serif;
+}
+h1{
+    color: olive;
+    padding: 20px;
+    margin: 10%;
+    background-color: rgba(255, 126, 97, 0.5);
+    border-radius: 20%;
+    position: relative;
+}
